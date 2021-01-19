@@ -1,0 +1,7 @@
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Ex3\bin\Debug\Ex3.exe.config
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Ex3\bin\Debug\Ex3.exe
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Ex3\bin\Debug\Ex3.pdb
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Ex3\obj\Debug\Ex3.csprojAssemblyReference.cache
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Ex3\obj\Debug\Ex3.csproj.CoreCompileInputs.cache
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Ex3\obj\Debug\Ex3.exe
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Ex3\obj\Debug\Ex3.pdb
