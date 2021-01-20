@@ -30,8 +30,8 @@ namespace Ex4
             Console.WriteLine();
             for (int i = 0; i < products.Length; i++)
             {
-                Console.WriteLine($"{products[i]}");
-                Console.WriteLine($"{quantity[i]} * {cost[i]} = {quantity[i] * cost[i],11}");
+                Console.WriteLine($"{i+1}. {products[i]}");
+                Console.WriteLine($"{quantity[i],4} * {cost[i]} = {quantity[i] * cost[i],8}");
                 total += quantity[i] * cost[i];
             }
             Console.WriteLine();

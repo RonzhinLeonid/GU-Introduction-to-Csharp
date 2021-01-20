@@ -19,6 +19,9 @@ namespace Ex3
 
             Console.WriteLine("\nСпособ 2");
             Console.WriteLine($"Число {n} {((n / 2 * 2 != n) ? "не" : "")}чётное.");
+
+            Console.WriteLine("\nСпособ 3");
+            Console.WriteLine($"Число {n} {(((n & 1) != 0) ? "не" : "")}чётное.");
             Console.ReadKey();
         }
     }

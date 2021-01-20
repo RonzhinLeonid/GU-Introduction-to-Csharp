@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Les1", "Les1", "{0E097D2B-24A1-460D-ADAF-821B8DE03AD5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Les2", "Les2", "{5C7D424D-C6A2-49CE-850C-7BCD73C5F351}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{03B7A1E7-0DCE-4C87-A60D-0B3CD6795AB2}"
 EndProject
