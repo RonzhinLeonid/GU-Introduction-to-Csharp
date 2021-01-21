@@ -29,34 +29,57 @@ namespace Ex6
         static dayWeek office3 = (dayWeek)0b0111110;
         static void Main(string[] args)
         {
-            dayWeek dayWork = (dayWeek)DateTime.Now.DayOfWeek;
+            int day = (int)DateTime.Now.DayOfWeek;
+            dayWeek dayWork = SwitchDay(day);
             Console.WriteLine($"Сегодня: {dayWork}");
-            IsWorkOffice(dayWork);
+            if(!IsWorkOffice(dayWork)) Console.Write("Сегодня все офисы закрыты.");
 
             Console.Write("\nВведите номер дня который хотите проверить: ");
-            int day = int.Parse(Console.ReadLine());
-            switch (day)
+            day = int.Parse(Console.ReadLine());
+            dayWork = SwitchDay(day);
+            if (dayWork != 0)
             {
-                case 1: dayWork = dayWeek.Понедельник; break;
-                case 2: dayWork = dayWeek.Вторник; break;
-                case 3: dayWork = dayWeek.Среда; break;
-                case 4: dayWork = dayWeek.Четвег; break;
-                case 5: dayWork = dayWeek.Пятница; break;
-                case 6: dayWork = dayWeek.Суббота; break;
-                case 7: dayWork = dayWeek.Воскресенье; break;
-                default:
-                    break;
+                Console.WriteLine($"Вы указали: {dayWork}");
+                if (!IsWorkOffice(dayWork)) Console.Write("Сегодня все офисы закрыты.");
             }
-            Console.WriteLine($"Вы указали: {dayWork}");
-            IsWorkOffice(dayWork);
+            else Console.WriteLine($"Вы указали несуществующий день недели");
             Console.ReadKey();
         }
 
-        private static void IsWorkOffice(dayWeek day)
+        private static dayWeek SwitchDay(int day)
         {
-            if ((day & office1) == day) Console.WriteLine("Работает office1");
-            if ((day & office2) == day) Console.WriteLine("Работает office2");
-            if ((day & office3) == day) Console.WriteLine("Работает office3");
+            switch (day)
+            {
+                case 1: return dayWeek.Понедельник;
+                case 2: return dayWeek.Вторник; 
+                case 3: return dayWeek.Среда;
+                case 4: return dayWeek.Четвег; 
+                case 5: return dayWeek.Пятница;
+                case 6: return dayWeek.Суббота; 
+                case 7: return dayWeek.Воскресенье;
+                default: return 0;
+            }
+        }
+
+        private static bool IsWorkOffice(dayWeek day)
+        {
+            bool temp =  false;
+            if ((day & office1) == day) 
+            { 
+                Console.WriteLine("Работает office1");
+                temp = true;
+            }
+            if ((day & office2) == day) 
+            { 
+                Console.WriteLine("Работает office2");
+                temp = true;
+            }
+            if ((day & office3) == day) 
+            {
+                Console.WriteLine("Работает office3");
+                temp = true;
+            }
+            return temp;
         }
     }
 }
