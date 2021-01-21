@@ -10,6 +10,22 @@ namespace Les2Ex2
     {
         //Ронжин Л.
         //Запросить у пользователя порядковый номер текущего месяца и вывести его название.
+        enum Month
+        {
+            январь = 1,
+            февраль,
+            март,
+            апрель,
+            май,
+            июнь,
+            июль,
+            август,
+            сентябрь,
+            октябрь,
+            ноябрь,
+            декабрь
+        }
+
         static void Main(string[] args)
         {
             Console.Write("Укажите порядковый номер месяца: ");
@@ -50,7 +66,28 @@ namespace Les2Ex2
             else if (month == 11) monthTitle = "ноябрь";
             else if (month == 12) monthTitle = "декабрь";
             else Console.WriteLine("Неверно введен номер месяца");
-            if (monthTitle != "") Console.WriteLine($"Указанный месяц: {monthTitle}"); 
+            if (monthTitle != "") Console.WriteLine($"Указанный месяц: {monthTitle}");
+            #endregion
+
+            #region enum
+            monthTitle = "";
+            switch (month)
+            {
+                case (int)Month.январь: monthTitle = "январь"; break;
+                case (int)Month.февраль: monthTitle = "февраль"; break;
+                case (int)Month.март: monthTitle = "март"; break;
+                case (int)Month.апрель: monthTitle = "апрель"; break;
+                case (int)Month.май: monthTitle = "май"; break;
+                case (int)Month.июнь: monthTitle = "июнь"; break;
+                case (int)Month.июль: monthTitle = "июль"; break;
+                case (int)Month.август: monthTitle = "август"; break;
+                case (int)Month.сентябрь: monthTitle = "сентябрь"; break;
+                case (int)Month.октябрь: monthTitle = "октябрь"; break;
+                case (int)Month.ноябрь: monthTitle = "ноябрь"; break;
+                case (int)Month.декабрь: monthTitle = "декабрь"; break;
+                default: Console.WriteLine("Неверно введен номер месяца"); break;
+            }
+            if (monthTitle != "") Console.WriteLine($"Указанный месяц: {monthTitle}");
             #endregion
 
             Console.ReadKey();
