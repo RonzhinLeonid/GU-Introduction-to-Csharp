@@ -1,0 +1,7 @@
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les3Ex3\bin\Debug\Les3Ex3.exe.config
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les3Ex3\bin\Debug\Les3Ex3.exe
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les3Ex3\bin\Debug\Les3Ex3.pdb
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les3Ex3\obj\Debug\Les3Ex3.csproj.CoreCompileInputs.cache
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les3Ex3\obj\Debug\Les3Ex3.exe
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les3Ex3\obj\Debug\Les3Ex3.pdb
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les3Ex3\obj\Debug\Les3Ex3.csprojAssemblyReference.cache
