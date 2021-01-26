@@ -1,0 +1,7 @@
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les4Ex4\bin\Debug\Les4Ex4.exe.config
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les4Ex4\bin\Debug\Les4Ex4.exe
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les4Ex4\bin\Debug\Les4Ex4.pdb
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les4Ex4\obj\Debug\Les4Ex4.csprojAssemblyReference.cache
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les4Ex4\obj\Debug\Les4Ex4.csproj.CoreCompileInputs.cache
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les4Ex4\obj\Debug\Les4Ex4.exe
+E:\GeekBrains\GU-Introduction-to-Csharp\GU-Introduction-to-Csharp\Les4Ex4\obj\Debug\Les4Ex4.pdb
