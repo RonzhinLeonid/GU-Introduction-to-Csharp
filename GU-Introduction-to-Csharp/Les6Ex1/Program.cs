@@ -18,7 +18,7 @@ namespace Les6Ex1
             {
                 Console.WriteLine("Для закрытия процесса выберите команду:\n" +
                 "KillProcForId - Закрытие процесса по его Id\n" +
-                "KillProcForName - Закрытие процесса по его имени\n" +
+                "KillProcForName - Закрытие процесса по его имени (регист не важен)\n" +
                 "GetProcess - Обновить список процессов\n" +
                 "Q - завершение работы");
                 string str = Console.ReadLine();
